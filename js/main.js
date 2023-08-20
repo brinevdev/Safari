@@ -20,8 +20,8 @@ const search = document.querySelectorAll('.actions-header__form')
 
 if (actionsHeader) {
     document.addEventListener('click',(e) => {
-        e.preventDefault();
         if (e.target.closest('.actions-header__form')) {
+            e.preventDefault()
             actionsHeader.classList.add('_active');
         } else {
             actionsHeader.classList.remove('_active');
@@ -58,6 +58,25 @@ if (actionsHeader) {
   }
 
 
+  const catalogNavigation = document.querySelector('.catalog__navigation');
+  const filterBackButton = document.querySelector('.filters__title');
+
+  filterBackButton.addEventListener('click', (e) => {
+    catalogNavigation.classList.remove('_active');
+  })
+
+  document.addEventListener('click', (e) => {
+    if (e.target.classList.contains('filter-open')) {
+      catalogNavigation.classList.add('_active');
+    } else {
+      catalogNavigation.classList.remove('_active');
+    }
+  })
+
+
+
+
+
   const swiper = new Swiper('.swiper', {
     // Optional parameters
     loop: true,
@@ -80,3 +99,6 @@ if (actionsHeader) {
       el: '.swiper-scrollbar',
     },
   });
+
+
+
