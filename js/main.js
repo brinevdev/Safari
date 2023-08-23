@@ -61,9 +61,12 @@ if (actionsHeader) {
   const catalogNavigation = document.querySelector('.catalog__navigation');
   const filterBackButton = document.querySelector('.filters__title');
 
-  filterBackButton.addEventListener('click', (e) => {
-    catalogNavigation.classList.remove('_active');
-  })
+
+  if(filterBackButton && catalogNavigation  ) {
+    filterBackButton.addEventListener('click', (e) => {
+      catalogNavigation.classList.remove('_active');
+    })
+  }
 
   document.addEventListener('click', (e) => {
     if (e.target.classList.contains('filter-open')) {
