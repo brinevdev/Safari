@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safari</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__menu menu">
+                    <button type="button" class="menu__icon icon-menu"><span></span></button>
+                    <nav class="menu__body">
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="index.html" class="menu__link menu__link-active">Home</a></li>
+                            <li class="menu__item"><a href="catalog.html" class="menu__link">Clothes</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Shoes</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Accessories</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header__logo"><a href=""><img src="./img/header/Logo.svg" alt="logo"></a></div>
+                <div class="header__actions actions-header">
+                    <form class="actions-header__form" action="">
+                        <input type="text" class="actions-header__input" placeholder="Search">
+                        <button class="actions-header__button"><img src="./img/icons/search.svg" alt="search"></button>
+                    </form>
+                    <div class="actions-header__body">
+                        <a href=""><img src="./img/icons/cart.svg" alt="cart"></a>
+                        <a href=""><img src="./img/icons/profile.svg" alt="profile"></a> 
+                        <a href=""><img src="./img/icons/favorites.svg" alt="favorites"></a> 
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+           <div class="checkout">
+            <div class="checkout__container">
+                <div class="shipping-address">
+                    <form action="" class="shipping-address__form form-shipping-address">
+                        <div class="form-shipping-address__title">Shipping Address</div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-1" class="form-shipping-address__label">Email</label>
+                            <input id="e-1"type="email" class="form-shipping-address__input">
+                        </div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-2" class="form-shipping-address__label">Full name</label>
+                            <input id="e-2"type="text" class="form-shipping-address__input">
+                        </div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-3" class="form-shipping-address__label">Address</label>
+                            <input id="e-3"type="text" class="form-shipping-address__input">
+                        </div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-4" class="form-shipping-address__label">State/Province</label>
+                           <select name="" id="e-4">
+                                <option value=""></option>
+                           </select>
+                        </div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-5" class="form-shipping-address__label">City</label>
+                            <select name="" id="e-5">
+                                <option value=""></option>
+                           </select>
+                        </div>
+                        <div class="form-shipping-address__item">
+                            <label for="e-6" class="form-shipping-address__label">Phone number</label>
+                            <input id="e-6"type="text" class="form-shipping-address__input">
+                        </div>
+                        <div class="form-shipping-address__item form-shipping-address__item_checkbox">
+                            <label for="e-7" class="form-shipping-address__label">Set default shipping address</label>
+                            <input id="e-7"type="checkbox" class="form-shipping-address__input">
+                        </div>
+                    </form>
+                </div>
+                <div class="delievery-section">
+                    <div class="delievery-method">
+                        <div class="delievery-method__title">Delivery method</div>
+                        <form action="" class="delievery-method__form">
+                            <div class="delievery-method__item">
+                                <label for="delievery-method_1">₦ 2,000</label>
+                                <input id="delievery-method_1" type="radio" class="delievery-method__radio" name="delievery-method">
+                            </div>
+                            <div class="delievery-method__item">
+                                <label for="delievery-method_2">Delivery fee</label>
+                                <input id="delievery-method_2" type="radio" class="delievery-method__radio" name="delievery-method">
+                            </div>
+                            <div class="delievery-method__item">
+                                <label for="delievery-method_3">Door delivery</label>
+                                <input id="delievery-method_3" type="radio" class="delievery-method__radio" name="delievery-method">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="payment-method">
+                        <div class="payment-method__title">Payment Methods</div>
+                        <form class="payment-method__form">
+                            <div class="payment-method__item">
+                                <input type="radio" name = "payment-method">
+                                <label for="">Pay with card <br><span>(Get 5% off total price and money back guarantee)</span></label>
+                               
+                            </div>
+                            <div class="pay-on-delivery">
+                                <div class="payment-method__item">
+                                    <input type="radio" name = "payment-method">
+                                    <label for="">Pay on delivery</label>
+                                </div>
+                                <ul class="payment-method__list">
+                                    <li>Kindly note that we will only accept POS payment option on delivery</li>
+                                    <li>You have to make payment before opening package</li>
+                                    <li>Once the seal is broken, item can only be returned if damaged or defective </li>
+                                </ul>
+                            </div>
+                        </form>
+                    </div>
+               </div>
+               <div class="order-summary-information">
+                   <div class="order-summary__body">
+                    <div class="order-summary">
+                        <div class="order-summary__title">ORDER SUMMARY</div>
+                        <div class="order-summary__items">
+                            <div class="favorites__item item-favorites">
+                                <div class="item-favorites__body">
+                                    <div class="item-favorites__image"><img src="./img/main/shop/Casual Flat Loafers 1.jpg" alt=""></div>
+                                    <div class="item-favorites__info">
+                                        <div class="item-favorites__title">Casual flat loafers</div>
+                                        <div class="item-favorites__size">Size - EU: 36 US: 5.5</div>
+                                        <div class="item-favorites__price">₦ 10,000</div>
+                                        <div class="item-favorites__quantity">Quantity: 1</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="favorites__item item-favorites">
+                                <div class="item-favorites__body">
+                                    <div class="item-favorites__image"><img src="./img/main/shop/01.jpg" alt=""></div>
+                                    <div class="item-favorites__info">
+                                        <div class="item-favorites__title">Casual flat loafers</div>
+                                        <div class="item-favorites__size">Size - EU: 36 US: 5.5</div>
+                                        <div class="item-favorites__price">₦ 10,000</div>
+                                        <div class="item-favorites__quantity">Quantity: 1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       </div>
+                       <div class="order-summary__cart-info cart-info">
+                            <div class="cart-info__item">
+                                <span>Cart sub-total</span>
+                                <span>₦ 20,000</span>
+                            </div>
+                            <div class="cart-info__item">
+                                <span>Card discount</span>
+                                <span>- ₦ 1,000</span>
+                            </div>
+                            <div class="cart-info__item">
+                                <span>Delivery fee</span>
+                                <span>₦ 2,000</span>
+                            </div>
+                        </div>
+                        <div class="order-summary__total total-order">
+                            <div class="total-order__item">
+                                <span>TOTAL</span>
+                                <span>₦ 21,000</span>
+                            </div>
+                        </div>
+                   </div>
+                    <div class="order-summary__button">
+                        <button class="button">Place order</button>
+                    </div>
+               </div>
+               
+            </div>
+           </div>
+        </main>
+        <footer class="footer">
+            <div class="footer__logo"><img src="./img/header/Logo.svg" alt="logo"></div>
+            <div class="footer__body body-footer">
+                <nav class="body-footer__menu">
+                    <ul class="menu__list">
+                        <li><a href="">About us</a></li>
+                        <li><a href="">Contacts</a></li>
+                        <li><a href="">Terms & Conditions</a></li>
+                    </ul>
+                </nav>
+                <div class="body-footer__social social">
+                    <ul class="social__list">
+                        <li href="" class="social__item social__item-facebook">
+                            <a href=""><img src="img/icons/facebook.svg" alt="facebook"></a> 
+                            <a href="">Facebook</a>
+                        </li>
+                        <li href="" class="social__item social__item-twitter">
+                            <a href=""><img src="img/icons/twitter.svg" alt="twitter"></a>
+                            <a href="">Twitter</a>
+                        </li>
+                        <li href="" class="social__item social__item-instagram">
+                           <a href=""><img src="img/icons/instagram.svg" alt="instagram"></a> 
+                            <a href="">Instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="body-footer__form form-body-footer">
+                    <div class="form-body-footer__title">Subscribe to our newsletter</div>
+                    <div class="form-body-footer__input">
+                        <input type="email" placeholder="email address">
+                        <button>Ok</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer__contacts contacts">
+                <span>497 Evergreen Rd. Roseville, CA 95673</span>
+                <a href="tel:44375643393">44375643393</a>
+                <a href="mailto:safari_shop@mail.com">safari_shop@mail.com</a>
+            </div>
+        </footer>
+    </div>
+<script src="js/main.js"></script>
+</body>
+</html>
