@@ -9,18 +9,18 @@ body {
     color: #000;
   }
   
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100%;
-    position: relative;
-    overflow: hidden;
-  }
-  
-  .main {
-    flex: 1 1 auto;
-  }
-  
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 1 auto;
+}
+
   [class*=__container] {
     max-width: 1370px;
     margin: 0 auto;

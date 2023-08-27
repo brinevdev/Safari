@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Mulish:300,regular,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular&display=swap');
+
+
+body {
+    font-family: "Mulish";
+    font-size: 20px;
+    color: #000;
+}  
+.wrapper {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+position: relative;
+overflow: hidden;
+}
+.main {
+flex: 1 1 auto;
+}
+[class*=__container] {
+max-width: 1370px;
+margin: 0 auto;
+padding: 0px 15px;
+}
+  
