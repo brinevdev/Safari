@@ -78,12 +78,18 @@ const Main = () => {
         </div>
         <div className="shop__container">
             <div className="shop__items">
-              <Product title = "title" img='img/main/shop/01.jpg' price="10$" />
-              <Product title = "title" img='img/main/shop/02.jpg' price="10$" />
-              <Product title = "title" img='img/main/shop/03.jpg' price="10$" />
-              <Product title = "title" img='img/main/shop/04.jpg' price="10$" />
-              <Product title = "title" img='img/main/shop/05.jpg' price="10$" />
-              <Product title = "title" img='img/main/shop/06.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/01.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/02.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/03.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/04.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/05.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/06.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/07.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/08.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/09.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/10.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/11.jpg' price="10$" />
+              <Product title = "title" img='img/main/accessories/12.jpg' price="10$" />
             </div>
             <div className="shop__pagination pagination">
                 <a href="" className="pagination__arrow pagination__arrow-back"><img src="./img/icons/arrow.svg" alt="" /></a>

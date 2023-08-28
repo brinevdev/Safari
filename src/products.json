@@ -1,0 +1,296 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "img":"img/main/clothes/01.jpg",
+      "category": "clothes",
+      "title": "Red lightweight gown",
+      "type": "dresses",
+      "size": "M",
+      "price": 25000
+    },
+    {
+      "id": 2,
+      "img":"img/main/clothes/02.jpg",
+      "category": "clothes",
+      "title": "Multicolored armless top",
+      "type": "tops",
+      "size": "XL",
+      "price": 10000
+    },
+    {
+      "id": 3,
+      "img":"img/main/clothes/03.jpg",
+      "category": "clothes",
+      "title": "Ladies bush pants ",
+      "size": "L",
+      "type": "pants",
+      "price": 15000
+    },
+    {
+      "id": 4,
+      "img":"img/main/clothes/04.jpg",
+      "category": "clothes",
+      "title": "Blue botton-down gown",
+      "type": "jeans",
+      "size": "L",
+      "price": 30000
+    },
+    {
+      "id": 5,
+      "img":"img/main/clothes/05.jpg",
+      "category": "clothes",
+      "title": "Checked ladies trouser",
+      "type": "jeans",
+      "size": "L",
+      "price": 50000
+    },
+    {
+      "id": 6,
+      "img":"img/main/clothes/06.jpg",
+      "category": "clothes",
+      "title": "Checked ladies trouser",
+      "size": "M",
+      "type": "dress",
+      "price": 20000
+    },
+    {
+      "id": 7,
+      "img":"img/main/clothes/07.jpg",
+      "category": "clothes",
+      "title": "Winter Warm Woolen Parka",
+      "type": "dress",
+      "size": "S",
+      "price": 25000
+    },
+    {
+      "id": 8,
+      "img":"img/main/clothes/08.jpg",
+      "category": "clothes",
+      "title": "Summer Dress for Women",
+      "type": "dress",
+      "size": "S",
+      "price": 12000
+    },
+    {
+      "id": 9,
+      "img":"img/main/clothes/09.jpg",
+      "category": "clothes",
+      "title": "Women office suit",
+      "size": "M",
+      "type": "jumpsuits",
+      "price": 100000
+    },
+    {
+      "id": 10,
+      "img":"img/main/clothes/10.jpg",
+      "category": "clothes",
+      "title": "Single Breasted Cami Top",
+      "type": "tops",
+      "size": "XS",
+      "price": 45000
+    },
+    {
+      "id": 11,
+      "img":"img/main.clothes/11.jpg",
+      "category": "clothes",
+      "title": "Twill paper bag trousers",
+      "type": "jeans",
+      "size": "XS",
+      "price": 30000
+    },
+    {
+      "id": 12,
+      "img":"img/main/shoes/01.jpg",
+      "category": "shoes",
+      "title": "High heels ladies shoes",
+      "type": "boots",
+      "size": 39,
+      "price": 35000
+    },
+    {
+      "id": 13,
+      "img":"img/main/shoes/02.jpg",
+      "category": "shoes",
+      "title": "Keds sneakers",
+      "type": "boots",
+      "size": 41,
+      "price": 40000
+    },
+    {
+      "id": 14,
+       "img":"img/main/shoes/03.jpg",
+      "category": "shoes",
+      "title": "Guilhermina Embellished Slides",
+      "type": "sandals",
+      "size": 39,
+      "price": 20000
+    },
+    {
+      "id": 15,
+      "img":"img/main/shoes/04.jpg",
+      "category": "shoes",
+      "title": "Summer shoes",
+      "type": "sandals",
+      "size": 39,
+      "price": 25000
+    },
+    {
+      "id": 16,
+      "img":"img/main/shoes/05.jpg",
+      "category": "shoes",
+      "title": "Casual Flat Loafers",
+      "type": "flats",
+      "size": 40,
+      "price": 20000
+    },
+    {
+      "id": 17,
+      "img":"img/main/shoes/06.jpg",
+      "category": "shoes",
+      "title": "Black strappy peeptoe",
+      "type": "heels",
+      "size": 40,
+      "price": 25000
+    },
+    {
+      "id": 18,
+      "img":"img/main/shoes/07.jpg",
+      "category": "shoes",
+      "title": "Superga Platform Sneakers",
+      "type": "sneakers",
+      "size": 41,
+      "price": 30000
+    },
+    {
+      "id": 19,
+      "img":"img/main/shoes/08.jpg",
+      "category": "shoes",
+      "title": "Heeled sandals",
+      "type": "heals",
+      "size": 40,
+      "price": 35000
+    },
+    {
+      "id": 20,
+      "img":"img/main/shoes/09.jpg",
+      "category": "shoes",
+      "title": "HAJINK Boat Shoes",
+      "type": "flats",
+      "size": 37,
+      "price": 40000
+    },
+    {
+      "id": 21,
+      "img":"img/main/shoes/10.jpg",
+      "category": "shoes",
+      "title": "Casual Flat Sandals",
+      "type": "flats",
+      "size": 38,
+      "price": 15000
+    },
+    {
+      "id": 22,
+      "img":"img/main/shoes/11.jpg",
+      "category": "shoes",
+      "title": "Summer Cork Slippers",
+      "type": "sandals",
+      "size": 39,
+      "price": 18000
+    },
+    {
+      "id": 23,
+      "img":"img/main/shoes/12.jpg",
+      "category": "shoes",
+      "title": "Ankle boots",
+      "type": "boots",
+      "size": 40,
+      "price": 25000
+    },
+    {
+      "id": 24,
+      "img":"img/main/accessories/01.jpg",
+      "category": "accessories",
+      "title": "Tambourine Crossbody Bag ",
+      "type": "handbags",
+      "price": 15000
+    },
+    {
+      "id": 25,
+      "img":"img/main/accessories/02.jpg",
+      "category": "accessories",
+      "title": "Summer Handbag",
+      "type": "handbags",
+      "price": 10000
+    },
+    {
+      "id": 26,
+      "img":"img/main/accessories/03.jpg",
+      "category": "accessories",
+      "title": "Nereide Oval",
+      "type": "glasses",
+      "price": 12000
+    },
+    {
+      "id": 27,
+      "img":"img/main/accessories/04.jpg",
+      "category": "accessories",
+      "title": "Diamond ladies ring",
+      "type": "jewelry",
+      "price": 200000
+    },
+    {
+      "id": 28,
+      "img":"img/main/accessories/05.jpg",
+      "category": "accessories",
+      "title": "Casual baseball cap",
+      "type": "hats and beanes",
+      "price": 7000
+    },
+    {
+      "id": 29,
+      "img":"img/main/accessories/06.jpg",
+      "category": "accessories",
+      "title": "Tear-drop stone necklace",
+      "type": "jewelry",
+      "price": 150000
+    },
+    {
+      "id": 30,
+      "img":"img/main/accessories/07.jpg",
+      "category": "accessories",
+      "title": "Ladies luxury watch",
+      "type": "watches",
+      "price": 120000
+    },
+    {
+      "id": 31,
+      "img":"img/main/accessories/08.jpg",
+      "category": "accessories",
+      "title": "Fashion ladies watch",
+      "type": "watches",
+      "price": 70000
+    },
+    {
+      "id": 32,
+      "img":"img/main/accessories/09.jpg",
+      "category": "accessories",
+      "title": "Beanie winter fleece",
+      "type": "caps and beanes",
+      "price": 10000
+    }
+  ],
+  "filters": {
+    "clothes":{
+      "category":["dresses","jeans","jumpsuits","tops","pants","skirts"],
+      "size":["XXS","XS","S","M","L","XL"]
+    },
+    "shoes": {
+      "category": ["booties","flats","sandals","sneakers","heals","oxfords"],
+      "size": [38,39,40,41,42]
+    },
+    "accessories":{
+      "category":["jewelry","watches","belts","bacpacks","handbags","hats and beans","gloves"]
+    }
+  }
+}
