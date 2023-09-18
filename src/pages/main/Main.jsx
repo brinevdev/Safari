@@ -1,40 +1,45 @@
-import { useEffect } from 'react';
+import { useEffect} from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { fetchProducts } from '../../store/shopSlice';
 import Header from '../../components/header/Header';
 import Footer from '../../components/footer/Footer';
 import SliderImage from './../../resources/img/main/slider/engin.png';
 import ArrowDownIcon from './../../resources/img/icons/arrow-down.svg';
-import Product from '../../components/product/Product';
+import ProductList from '../../components/productList/ProductList';
 import 'swiper/scss';
 import './main.scss';
 
 
 
+
 const Main = () => {
+    const dispatch = useDispatch();
+    const {products}= useSelector(state => state.shop.data);
+  
+    const slideToShop = (e) => {
+        const headerHeight = document.querySelector('.header').offsetHeight || 0;
+        const shop = document.querySelector('.shop');
+        const top = getCoords(shop).top;
+        window.scrollTo({
+          top: top-headerHeight,
+          left: 0,
+          behavior: "smooth",
+        })
+    }
+
+    function getCoords(elem) {
+        let box = elem.getBoundingClientRect();
+        return {
+            top: box.top + window.pageYOffset,
+            right: box.right + window.pageXOffset,
+            bottom: box.bottom + window.pageYOffset,
+            left: box.left + window.pageXOffset
+        };
+    }
 
     useEffect(()=> {
-        const shop = document.querySelector('.shop');
-        const goto = document.querySelector('.goto__button')
-        if (shop && goto) {
-          goto.addEventListener('click',(e) => {
-            const headerHeight = document.querySelector('.header').offsetHeight || 0;
-            const top = getCoords(shop).top;
-            window.scrollTo({
-              top: top-headerHeight,
-              left: 0,
-              behavior: "smooth",
-            })
-          });
-        }
-        function getCoords(elem) {
-            let box = elem.getBoundingClientRect();
-            return {
-                top: box.top + window.pageYOffset,
-                right: box.right + window.pageXOffset,
-                bottom: box.bottom + window.pageYOffset,
-                left: box.left + window.pageXOffset
-            };
-        }
+        dispatch(fetchProducts())
     },[])
 
     return (
@@ -66,7 +71,7 @@ const Main = () => {
             <div className="swiper-pagination"></div>
             <div className="page__goto">
                 <div> Explore our collection</div>
-                <button className="goto__button"> <img src={ArrowDownIcon} alt="" /></button>
+                <button className="goto__button" onClick={(e) => slideToShop()}> <img src={ArrowDownIcon} alt="" /></button>
             </div>
         </div>
     </section>
@@ -77,20 +82,7 @@ const Main = () => {
             </div>
         </div>
         <div className="shop__container">
-            <div className="shop__items">
-              <Product title = "title" img='img/main/accessories/01.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/02.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/03.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/04.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/05.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/06.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/07.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/08.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/09.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/10.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/11.jpg' price="10$" />
-              <Product title = "title" img='img/main/accessories/12.jpg' price="10$" />
-            </div>
+            <ProductList products = {products}/>
             <div className="shop__pagination pagination">
                 <a href="" className="pagination__arrow pagination__arrow-back"><img src="./img/icons/arrow.svg" alt="" /></a>
                 <div className="pagination__items">

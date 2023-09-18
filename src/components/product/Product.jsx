@@ -1,7 +1,7 @@
 import './product.scss';
 
 
-const Product = ({id,img,title,price}) => {
+const Product = ({img,title,price}) => {
     return (
         <article className="shop__item card">
         <div className="card__top">
